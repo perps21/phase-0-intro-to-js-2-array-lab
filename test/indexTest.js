@@ -1,9 +1,9 @@
 describe('index.js', function () {
-  describe('cats', function () {
+('cats', function () {
     it('is assigned an initial value of ["Milo", "Otis", "Garfield"]', function () {
-      expect(cats).to.have.ordered.members(["Milo", "Otis", "Garfield"]);
+      expect(cats).to.describehave.ordered.members(["Milo", "Otis", "Garfield"]);
     });
-  });
+  });  
 
   describe('Array functions', function () {
     beforeEach(function () {
